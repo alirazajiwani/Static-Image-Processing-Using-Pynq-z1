@@ -25,7 +25,7 @@ Runs an interactive loop, prompting the user to select a filter (1-5) or exit (6
 
 ![WhatsApp Image 2025-08-29 at 13 30 06_8eaa2bec](https://github.com/user-attachments/assets/1a7052a0-598e-4bc6-9e4a-53054b79c8e6)
 ## Results:
-The greyscale Image of the original image is then displayed on the Monitor connected via HDMI to the PYNQ board.
+The Grayscale filtered image is then displayed on the Monitor connected via HDMI to the PYNQ board.
 
 ![WhatsApp Image 2025-08-29 at 13 29 22_1a07d3b9](https://github.com/user-attachments/assets/b81311a4-d9b4-4e57-8747-1ff857ccb389)
 
