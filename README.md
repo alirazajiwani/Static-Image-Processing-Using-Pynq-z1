@@ -18,12 +18,15 @@ The PYNQ-Z1 Image Processing Project code operates by loading a 640x480 image, c
 Initializes the PYNQ-Z1 overlay and configures the HDMI output at 640x480 with 24-bit depth.
 ### CELL 03:
 Applies filters—Grayscale, Threshold, Edge Detection, Blur, and Sharpening—using OpenCV, converts single-channel images to 3-channel BGR, and displays them in subplots.
+
 ![WhatsApp Image 2025-08-29 at 13 26 53_47782dc8](https://github.com/user-attachments/assets/2348dd44-e3c6-4992-bcc9-02537ef3d9b8)
 ### CELL 04:
 Runs an interactive loop, prompting the user to select a filter (1-5) or exit (6), then writes the chosen 3-channel BGR image to the HDMI monitor, ensuring shape and dtype compatibility with a 1-second delay for updates.
+
 ![WhatsApp Image 2025-08-29 at 13 30 06_8eaa2bec](https://github.com/user-attachments/assets/1a7052a0-598e-4bc6-9e4a-53054b79c8e6)
 ## Results:
 The greyscale Image of the original image is then displayed on the Monitor connected via HDMI to the PYNQ board.
+
 ![WhatsApp Image 2025-08-29 at 13 29 22_1a07d3b9](https://github.com/user-attachments/assets/b81311a4-d9b4-4e57-8747-1ff857ccb389)
 
 
