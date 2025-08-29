@@ -1,10 +1,10 @@
 # Static Image Processing Using Pynq z1
 This Image Processing Project leverages the Xilinx PYNQ-Z1 board to perform real-time image processing and visualization. Utilizing Python and OpenCV, the project applies multiple image filters to a source image and outputs the results via an HDMI-connected monitor. This documentation outlines the setup, usage, code structure, and potential enhancements for the project.
 ## Requirements:
-Hardware: PYNQ-Z1 board, HDMI monitor, HDMI cable, 12V power supply.
-Software: PYNQ image installed on a microSD card, Jupyter notebook environment.
-Libraries: Python with PIL, NumPy, Matplotlib, and OpenCV installed.
-Bitstream: Compatible `base.bit` file for the PYNQ-Z1 overlay.
+1. Hardware: PYNQ-Z1 board, HDMI monitor, HDMI cable, 12V power supply.
+2. Software: PYNQ image installed on a microSD card, Jupyter notebook environment.
+3. Libraries: Python with PIL, NumPy, Matplotlib, and OpenCV installed.
+4. Bitstream: Compatible `base.bit` file for the PYNQ-Z1 overlay.
 ## Setup Guide:
 1.	Insert the microSD card with the PYNQ image into the PYNQ-Z1 board.
 2.	Connect the HDMI cable from the PYNQ-Z1 to the monitor and power on the board.
