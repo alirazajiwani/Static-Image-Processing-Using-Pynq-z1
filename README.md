@@ -14,7 +14,7 @@ This Image Processing Project leverages the Xilinx PYNQ-Z1 board to perform real
 ## Working:
 ### Cell 01:
 The PYNQ-Z1 Image Processing Project code operates by loading a 640x480 image, converting it from RGB to BGR for OpenCV compatibility, and displaying it in the Jupyter notebook. 
-###CELL 02:
+### CELL 02:
 Initializes the PYNQ-Z1 overlay and configures the HDMI output at 640x480 with 24-bit depth.
 ### CELL 03:
 Applies filters—Grayscale, Threshold, Edge Detection, Blur, and Sharpening—using OpenCV, converts single-channel images to 3-channel BGR, and displays them in subplots.
